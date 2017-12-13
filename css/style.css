@@ -473,9 +473,9 @@ a.title:hover { color: #0683b5; }
 .footer-widget { }
 .footer-widget ul { }
 .footer-widget li { }
-.footer-widget li a { color: #747474; line-height: 34px; }
-.footer-widget li a:hover { color: #aa9144; }
-.footer-widget li i { color: #0683b5; }
+.footer-widget li a { color: #0683b5; line-height: 34px; }
+.footer-widget li a:hover { color: #5cb555; }
+.footer-widget li i { color: #0683b5; margin-right: 15px; }
 .footer-link { }
 .footer-social { }
 .footer-social ul { }
@@ -484,7 +484,7 @@ a.title:hover { color: #0683b5; }
 .footer-social ul li a:hover i { color: #aa9144; }
 .footer .contact li { position: relative; padding-left: 40px; display: block; '
 margin-bottom: 8px; padding: 0 0 8px 40px; color: #747474; }
-.footer .contact li i { display: block; position: absolute; top: 5px; left: 0; width: 30px; 
+.footer .contact li i { display: block; position: absolute; top: 6px; left: 0; width: 30px; 
     font-size: 16px; text-align: center; }
 .widget-newsletter .form-control { height: 48px; color: #eee; background-color: #393836; border: none; box-shadow: none; 
     font-size: 14px; border-radius: 30px 0px 0px 30px;}
