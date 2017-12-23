@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url("../fonts/comfortaa.ttf") format("truetype");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #222;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    background-color: #eee;
+}
+
+body.pml {
+    background-image: url(../images/PML_opp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.dnk {
+    background-image: url(../images/DNK_opp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.robot {
+    background-image: url(../images/robotic_opp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.about {
+    background-image: url(../images/about_opp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.projects {
+    background-image: url(../images/project_opp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.events {
+    background-image: url(../images/events_opp.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.up {
+    position: absolute;
+    top: 2%;
+    left: 1.5em;
+}
+
+.middle {
+    position: absolute;
+    bottom: 15%;
+    left: 1.5em;
+}
+
+.down {
+    position: absolute;
+    bottom: 3%;
+    left: 1.5em;
+}
+
+.down a {
+    width: 1.7em;;
+    border-radius: 0;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.down a:last-child {
+    width: 3.2em;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10em;
+    background-image: url(../images/old-paper-texture.jpg);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/*ul li {
+    border: 1px solid black;
+}*/
+
+li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 7em;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.main-text {
+    margin-left: 10em;
+    margin-right: 10em;
+    max-width: 1000px;
+}
+
+.main-text h1 {
+    margin-top: 0;
+    margin-left: 5%;
+    padding-top: 5%;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+.main-text span {
+    color: #f2600f;
+    font-size: 130%;
+}
+
+.show {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(221, 221, 221, 0.7);
+}
+
+.main-text p {
+    margin-left: 5%;
+    text-align: left;
+    line-height: 1.4;
+}
