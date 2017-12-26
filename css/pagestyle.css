@@ -128,6 +128,18 @@ li a:hover img {
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .column.side {
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .column.side {
+        width: 26%;
+    }
+}
+
 @media screen and (max-width: 1366px) {
     .column.side {
         width: 25%;
