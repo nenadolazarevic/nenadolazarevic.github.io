@@ -191,6 +191,18 @@ li a:hover img {
     width: 83%;
 }
 
+@media screen and (max-width: 1024px) {
+    .column.wide {
+        width: 81%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .column.wide {
+        width: 75%;
+    }
+}
+
 div.news {
     margin: 6.7em 0;
     background-color: rgba(221, 221, 221, 0.7);
