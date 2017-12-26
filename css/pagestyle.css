@@ -328,6 +328,7 @@ div.proj a:hover {
     
     .middle li {
         float: right;
+        margin-left: 0;
     }
 
     .down {
@@ -350,17 +351,23 @@ div.proj a:hover {
     
     div.news {
     margin: 2em 0;
+    padding: 10px;
+    height: 70vh;
     }
     
 }
 
 @media screen and (max-width: 414px) {
     ul {
-        height: 7.5em;
+        height: 7.8em;
     }
     
+    ul li {
+        margin: 1.6em 1.4em;;
+        }
+    
     li a {
-        width: 5em;
+        width: 4em;
     }
     
     .column.central {
@@ -376,18 +383,21 @@ div.proj a:hover {
 
     div.news {
         padding: 10px;
-        height: 65vh;
+        height: 100%;
         overflow: auto;
+        margin-top: 0;
     }
     
     .down {
         display: none;
     }
-    
-    .middle li {
-        margin-left: 0;
-    }
 
+    .main-text h1 {
+        font-size: 160%;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    
 }
 
 @media screen and (max-width: 384px) {
