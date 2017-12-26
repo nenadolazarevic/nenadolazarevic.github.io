@@ -122,85 +122,10 @@ li a:hover img {
     right: 20px;
 }
 
-@media screen and (max-width: 1920px) {
-    .column.side {
-        width: 29%;
-    }
-}
-
-@media screen and (max-width: 1680px) {
-    .column.side {
-        width: 28%;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    .column.side {
-        width: 27%;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .column.side {
-        width: 26%;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    .column.side {
-        width: 25%;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .column.side {
-        width: 23%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .column.side {
-        width: 19%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    ul {
-        width: 10em;
-    }
-    .up {
-        left: 1.5em;
-    }
-    .middle {
-        left: 1.5em;
-    }
-    .down {
-        left: 1.5em;
-    }
-    .column.central {
-        margin-left: 10em;
-}
-    .column.side {
-        width: 17%;
-    }
-}
-
 .column.wide {
     margin-left: 12em;
     padding: 1em 2em;
     width: 83%;
-}
-
-@media screen and (max-width: 1024px) {
-    .column.wide {
-        width: 81%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .column.wide {
-        width: 75%;
-    }
 }
 
 div.news {
@@ -292,4 +217,192 @@ div.proj a {
 
 div.proj a:hover {
     font-size: 105%
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1920px) {
+    .column.side {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .column.side {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .column.side {
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .column.side {
+        width: 26%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .column.side {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .column.side {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .column.side {
+        width: 19%;
+    }
+    .column.wide {
+        width: 81%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+        width: 10em;
+    }
+    .up {
+        left: 1.5em;
+    }
+    .middle {
+        left: 1.5em;
+    }
+    .down {
+        left: 1.5em;
+    }
+    .column.central {
+        margin-left: 10em;
+}
+    .column.side {
+        width: 17%;
+    }
+    .column.wide {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column.wide {
+        margin-left: 9.5em;
+        width: 75%;
+    }
+    ul {
+        display: block;
+        width: 100%;
+        height: 10em;
+    }
+    
+    ul li {
+        display: inline-block;
+        margin: 1.4em 1.4em;;
+        }
+
+    li a {
+        width: 7em;
+    }
+
+    .up {
+        position: static;
+        float: left;
+        width: 35%;
+    }
+    
+    .up li {
+        float: left;
+    }
+
+    .middle {
+        position: static;
+        display: inline-block;
+        width: 65%;
+    }
+    
+    .middle li {
+        float: right;
+    }
+
+    .down {
+        position: fixed;
+        bottom: 10px;
+        right: -400px;
+    }
+
+    .column.central {
+        width: 73%;
+        margin-left: 0;
+        margin-top: 9em;
+        padding-left: 1.5em
+    }
+
+    .column.side {
+        width: 25%;
+        margin-top: 10em;
+    }
+    
+    div.news {
+    margin: 2em 0;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    ul {
+        height: 7.5em;
+    }
+    
+    li a {
+        width: 5em;
+    }
+    
+    .column.central {
+        width: 70%;
+        padding-left: 1em
+    }
+
+    .column.side {
+        width: 30%;
+    }
+
+    div.news {
+        padding: 10px;
+        height: 65vh;
+        overflow: auto;
+    }
+    
+    .down {
+        right: -250px;
+    }
+    
+    .middle li {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 384px) {
+    ul {
+        height: 7.5em;
+    }
+    
+    li a {
+        width: 5em;
+    }
+    
+    .column.central {
+        width: 73%;
+        margin-top: 6.5em;
+    }
+
+    .column.side {
+        width: 25%;
+    }
 }
