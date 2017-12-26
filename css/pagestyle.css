@@ -364,12 +364,14 @@ div.proj a:hover {
     }
     
     .column.central {
-        width: 70%;
-        padding-left: 1em
+        width: 100%;
+        margin-top: 6.5em;
     }
 
     .column.side {
-        width: 30%;
+        width: 90%;
+        margin: 5%;
+        position: static;
     }
 
     div.news {
@@ -379,7 +381,7 @@ div.proj a:hover {
     }
     
     .down {
-        right: -250px;
+        display: none;
     }
     
     .middle li {
@@ -389,20 +391,5 @@ div.proj a:hover {
 }
 
 @media screen and (max-width: 384px) {
-    ul {
-        height: 7.5em;
-    }
     
-    li a {
-        width: 5em;
-    }
-    
-    .column.central {
-        width: 73%;
-        margin-top: 6.5em;
-    }
-
-    .column.side {
-        width: 25%;
-    }
 }
