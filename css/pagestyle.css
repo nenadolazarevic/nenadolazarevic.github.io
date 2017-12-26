@@ -119,7 +119,52 @@ li a:hover img {
 .column.side {
     width: 23%;
     position: fixed;
-    right: 10px;
+    right: 20px;
+}
+
+@media screen and (max-width: 1920px) {
+    .column.side {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .column.side {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .column.side {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .column.side {
+        width: 19%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul {
+        width: 10em;
+    }
+    .up {
+        left: 1.5em;
+    }
+    .middle {
+        left: 1.5em;
+    }
+    .down {
+        left: 1.5em;
+    }
+    .column.central {
+        margin-left: 10em;
+}
+    .column.side {
+        width: 17%;
+    }
 }
 
 .column.wide {
