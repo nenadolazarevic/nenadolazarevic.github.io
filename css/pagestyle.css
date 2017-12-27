@@ -124,7 +124,7 @@ li a:hover img {
     width: 23%;
     position: fixed;
     right: 20px;
-    z-index: -2;
+    z-index: 0;
 }
 
 .column.wide {
