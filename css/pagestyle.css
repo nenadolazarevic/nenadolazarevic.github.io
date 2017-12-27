@@ -361,6 +361,7 @@ div.proj a:hover {
     ul {
         height: 7.7em;
         padding: 1.4em 1.4em;
+        z-index: 1;
     }
     
     ul li {
@@ -380,6 +381,7 @@ div.proj a:hover {
         width: 90%;
         margin: 5%;
         position: static;
+        z-index: -1;
     }
 
     div.news {
