@@ -359,15 +359,16 @@ div.proj a:hover {
 
 @media screen and (max-width: 414px) {
     ul {
-        height: 7.8em;
+        height: 7.7em;
+        padding: 1.4em 1.4em;
     }
     
     ul li {
-        margin: 1.6em 1.4em;;
+        margin: 0;
         }
     
     li a {
-        width: 4em;
+        width: 3.8em;
     }
     
     .column.central {
