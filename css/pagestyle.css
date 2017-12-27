@@ -28,18 +28,22 @@ ul {
     z-index: 1;
 }
 
+ul li {
+    margin: 10px auto;
+}
+
 li a {
     display: block;
     padding: 0;
     text-decoration: none;
     width: 7em;
     border-radius: 100%;
-    margin: 10px auto;
 }
 
 li a img {
-    display: inline-block;
+    display: block;
     border-radius: 100%;
+    width: 100%;
 }
 
 li a:hover img {
