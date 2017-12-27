@@ -372,6 +372,10 @@ div.proj a:hover {
         width: 3.8em;
     }
     
+    li:nth-child(2) a {
+        margin-right: 0.7em;
+    }
+    
     .column.central {
         width: 100%;
         margin-top: 6.5em;
