@@ -266,18 +266,18 @@ div.proj a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     ul {
-        width: 10em;
+        width: 9em;
     }
     .up {
-        left: 1.5em;
+        left: 1em;
     }
     .middle {
-        left: 1.5em;
+        left: 1em;
     }
     .down {
-        left: 1.5em;
+        left: 1em;
     }
     .column.central {
         margin-left: 10em;
