@@ -66,14 +66,14 @@ li a:hover img {
 }
 
 .down a {
-    width: 1.7em;;
+    width: 1.7em;
     border-radius: 0;
     display: inline-block;
     margin-right: 8px;
 }
 
 .down a:hover {
-    width: 1.9em;;
+    width: 1.9em;
     margin-right: 5px;
 }
 
@@ -427,6 +427,7 @@ div.proj p.info {
     .column.central {
         width: 100%;
         margin-top: 6.5em;
+        padding-left: 1.3em;
     }
 
     .column.side {
@@ -447,7 +448,19 @@ div.proj p.info {
     }
     
     .down {
-        display: none;
+        bottom: 0;
+        right: -250px;
+        width: 90%;
+        padding-top: 5px;
+        background-image: url(../images/old-paper-texture.jpg);
+    }
+    
+    .down a:hover {
+        width: 1.7em;
+    }
+    
+    .down a:last-child:hover {
+        width: 3.2em;
     }
 
     .main-text h1 {
@@ -459,5 +472,23 @@ div.proj p.info {
 }
 
 @media screen and (max-width: 384px) {
+    .down {
+        right: -200px;
+    }
+    
+    .column.central {
+        padding-left: 1.6em;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .down {
+        right: -150px;
+    }
+    
+    .column.central {
+        padding-left: 2em;
+    }
     
 }
