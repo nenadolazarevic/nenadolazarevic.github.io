@@ -16,6 +16,37 @@ body {
     background-color: #eee;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12em;
+    background-image: url(../images/old-paper-texture.jpg);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+li a {
+    display: block;
+    padding: 0;
+    text-decoration: none;
+    width: 7em;
+    border-radius: 100%;
+    margin: auto;
+}
+
+li a img {
+    display: inline-block;
+    border-radius: 100%;
+}
+
+li a:hover img {
+    border: 1px solid #444;
+    border-radius: 100%;
+}
+
 .up {
     position: absolute;
     top: 2%;
@@ -55,36 +86,6 @@ body {
     width: 3.4em;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 12em;
-    background-image: url(../images/old-paper-texture.jpg);
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-li a {
-    display: block;
-    padding: 0;
-    text-decoration: none;
-    width: 7em;
-    border-radius: 100%;
-    margin: auto;
-}
-
-li a img {
-    display: inline-block;
-    border-radius: 100%;
-}
-
-li a:hover img {
-    border: 1px solid #444;
-    border-radius: 100%;
-}
-
 .main-text h1 {
     text-align: left;
     letter-spacing: 3px;
@@ -120,12 +121,14 @@ li a:hover img {
     width: 23%;
     position: fixed;
     right: 20px;
+    z-index: -2;
 }
 
 .column.wide {
-    margin-left: 12em;
+    margin-left: 16em;
     padding: 1em 2em;
     width: 83%;
+    z-index: -1;
 }
 
 div.news {
@@ -141,7 +144,6 @@ div.news {
 div.uno {
     width: 70%;
     height: auto;
-    height: 250px;
     display: inline-block;
     float: left;
 }
@@ -185,25 +187,12 @@ div.news a:hover {
 
 div.proj {
     margin-top: 25px;
-    margin-bottom: 5px;
     background-color: rgba(221, 221, 221, 0.7);
     border-radius: 20px;
     padding: 15px;
     position: relative;
     height: auto;
     overflow: auto;
-}
-
-div.proj p.meta {
-    color: #222;
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 3px;
-}
-
-div.proj p.info {
-    text-align: justify;
-    margin-top: 3px;
 }
 
 div.proj h2 {
@@ -219,6 +208,18 @@ div.proj a:hover {
     font-size: 105%
 }
 
+div.proj p.meta {
+    color: #222;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+div.proj p.info {
+    text-align: justify;
+    margin-top: 3px;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1920px) {
@@ -231,11 +232,17 @@ div.proj a:hover {
     .column.side {
         width: 28%;
     }
+    .column.wide {
+        margin-left: 15em;
+    }
 }
 
 @media screen and (max-width: 1600px) {
     .column.side {
         width: 27%;
+    }
+    .column.wide {
+        margin-left: 14.5em;
     }
 }
 
@@ -243,11 +250,17 @@ div.proj a:hover {
     .column.side {
         width: 26%;
     }
+    .column.wide {
+        margin-left: 13.7em;
+    }
 }
 
 @media screen and (max-width: 1366px) {
     .column.side {
         width: 25%;
+    }
+    .column.wide {
+        margin-left: 13.4em;
     }
 }
 
@@ -279,6 +292,9 @@ div.proj a:hover {
     }
     .column.wide {
         width: 82%;
+    }
+    .column.wide {
+        margin-left: 10.4em;
     }
 }
 
@@ -365,6 +381,23 @@ div.proj a:hover {
         margin-top: 10em;
     }
     
+    .column.wide {
+        margin-top: 9em;
+        margin-left: 0;
+    }
+    
+    div.uno {
+        width: 100%;
+        display: block;
+        float: left;
+    }
+
+    div.due {
+        width: 100%;
+        display: block;
+        float: right;
+    }
+    
     div.news {
     margin: 2em 0;
     padding: 10px;
@@ -377,7 +410,6 @@ div.proj a:hover {
     ul {
         height: 7.7em;
         padding: 1.4em 1.4em;
-        z-index: 1;
     }
     
     ul li {
@@ -401,7 +433,10 @@ div.proj a:hover {
         width: 90%;
         margin: 5%;
         position: static;
-        z-index: -1;
+    }
+    
+    .column.wide {
+        width: 100%;
     }
 
     div.news {
