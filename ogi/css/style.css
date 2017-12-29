@@ -790,14 +790,14 @@ div.enter p {
     div.moto h1 {
         width: 900px;
         font-size: 1.8em;
-       -webkit-transform: translate3d(-410.0px, -300.0px, 0);
-       transform: translate3d(-410.0px, -300.0px, 0);
+       -webkit-transform: translate3d(-410.0px, -290.0px, 0);
+       transform: translate3d(-410.0px, -290.0px, 0);
     }
 
     div.moto h5 {
         font-size: 1em;
-       -webkit-transform: translate3d(275.0px, -330.0px, 0);
-       transform: translate3d(275.0px, -330.0px, 0);
+       -webkit-transform: translate3d(275.0px, -320.0px, 0);
+       transform: translate3d(275.0px, -320.0px, 0);
     }
     
     .menu-open-button {
@@ -961,18 +961,18 @@ div.enter p {
     }
     
     .dropdown-content {
-        -webkit-transform: translate3d(28.0px, -105.0px, 0);
-        transform: translate3d(28.0px, -105.0px, 0);
+        -webkit-transform: translate3d(28.0px, -85.0px, 0);
+        transform: translate3d(28.0px, -85.0px, 0);
     }
     
     .dropdown:hover .projects {
-        -webkit-transform: translate3d(127.0px, 5.0px, 0);
-        transform: translate3d(127.0px, 5.0px, 0);
+        -webkit-transform: translate3d(102.0px, 5.0px, 0);
+        transform: translate3d(102.0px, 5.0px, 0);
     }
 
     .dropdown:hover .events {
-        -webkit-transform: translate3d(252.0px, 5.0px, 0);
-        transform: translate3d(252.0px, 5.0px, 0);
+        -webkit-transform: translate3d(202.0px, 5.0px, 0);
+        transform: translate3d(202.0px, 5.0px, 0);
     }
 }
 
@@ -1435,6 +1435,92 @@ div.enter p {
     .menu-open:checked ~ .menu-item:nth-child(9) {
         -webkit-transform: scale(0.4, 0.4) translate3d(-260%, 1165%, 0);
         transform: scale(0.35, 0.35) translate3d(-260%, 1165%, 0);
+    }
+  
+    .dropdown-content {
+        -webkit-transform: translate3d(28.0px, -70.0px, 0);
+        transform: translate3d(28.0px, -70.0px, 0);
+    }
+    
+    .dropdown:hover .projects {
+        -webkit-transform: translate3d(80.0px, 5.0px, 0);
+        transform: translate3d(-80.0px, 5.0px, 0);
+    }
+
+    .dropdown:hover .events {
+        -webkit-transform: translate3d(83.0px, 5.0px, 0);
+        transform: translate3d(83.0px, 5.0px, 0);
+    }
+}
+    
+@media screen and (max-width: 320px) and (max-height: 480px) {
+    div.moto h1 {
+        font-size: 0.7em;
+        width: 310px;
+       -webkit-transform: translate3d(-115.0px, -190.0px, 0);
+       transform: translate3d(-115.0px, -190.0px, 0);
+    }
+
+    div.moto h5 {
+        font-size: 0.5em;
+       -webkit-transform: translate3d(-15.0px, -205.0px, 0);
+       transform: translate3d(-15.0px, -205.0px, 0);
+    }
+
+    .menu-open-button {
+       -webkit-transform: scale(2.1, 2.1) translate3d(0, 0, 0);
+       transform: scale(2.1, 2.1) translate3d(0, 0, 0);
+        margin-left: -30px;
+    }
+    
+    .menu-open-button:hover {
+       -webkit-transform: scale(2.0, 2.0) translate3d(0, 0, 0);
+       transform: scale(2.0, 2.0) translate3d(0, 0, 0);
+    }
+    
+    .menu-open:checked + .menu-open-button {
+        -webkit-transform: scale(1.8, 1.8) translate3d(0, 0, 0);
+        transform: scale(1.8, 1.8) translate3d(0, 0, 0);
+    }
+  
+    .menu-item {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .menu-open:checked ~ .menu-item:nth-child(3) {
+       -webkit-transform: translate3d(40.0px, -145.0px, 0);
+       transform: translate3d(40px, -125.0px, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(4) {
+       -webkit-transform: translate3d(135.0px, 185.0px, 0);
+       transform: translate3d(135.0px, 185.0px, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(5) {
+       -webkit-transform: translate3d(40.0px, 185.0px, 0);
+       transform: translate3d(40.0px, 185.0px, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(6) {
+       -webkit-transform: translate3d(-55.0px, 185.0px, 0);
+       transform: translate3d(-55.0px, 185.0px, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(7) {
+        -webkit-transform: scale(0.2, 0.2) translate3d(-800%, 1950%, 0);
+        transform: scale(0.2, 0.2) translate3d(-800%, 1950%, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(8) {
+        -webkit-transform: scale(0.2, 0.2) translate3d(-650%, 1950%, 0);
+        transform: scale(0.2, 0.2) translate3d(-650%, 1950%, 0);
+    }
+
+    .menu-open:checked ~ .menu-item:nth-child(9) {
+        -webkit-transform: scale(0.4, 0.4) translate3d(-260%, 1135%, 0);
+        transform: scale(0.35, 0.35) translate3d(-260%, 1135%, 0);
     }
   
     .dropdown-content {
