@@ -4013,12 +4013,43 @@
 }
 }
 
+#text {
+    width: 80%;
+}
+
+#text p{
+    width: 100%;
+}
+
 div.text {
-    margin-left: 17em;
+    margin-left: 16em;
+}
+
+div.text h2,
+div.text p{
+    color: #185627;
+}
+
+@media screen and (max-width: 1920px) {
+    div.text p{
+        width: 60em;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #text {
+        width: 75%;
+    }
 }
 
 @media screen and (max-width: 1280px) {
     div.text {
         margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #text {
+        width: 95%;
     }
 }
