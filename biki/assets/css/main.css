@@ -4012,3 +4012,13 @@
     bottom: -660px;
 }
 }
+
+div.text {
+    margin-left: 17em;
+}
+
+@media screen and (max-width: 1280px) {
+    div.text {
+        margin-left: 0;
+    }
+}
