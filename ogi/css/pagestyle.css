@@ -99,6 +99,11 @@ li a:hover img {
     font-size: 130%;
 }
 
+.main-text a {
+    color: #f2600f;
+    text-decoration: none;
+}
+
 .show {
     background-color: rgba(221, 221, 221, 0.7);
     border-radius: 20px;
@@ -118,6 +123,10 @@ li a:hover img {
     width: 60%;
     margin-left: 12em;
     padding: 1em 2em;
+}
+
+.column.central img {
+    width: 100%;
 }
 
 .column.side {
