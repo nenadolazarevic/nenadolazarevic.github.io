@@ -741,23 +741,23 @@ div.enter p {
     }
     
     .menu-open:checked ~ .menu-item:nth-child(3) {
-       -webkit-transform: translate3d(5.0px, -240.0px, 0);
-       transform: translate3d(5.0px, -240.0px, 0);
+       -webkit-transform: translate3d(5.0px, -230.0px, 0);
+       transform: translate3d(5.0px, -230.0px, 0);
     }
 
     .menu-open:checked ~ .menu-item:nth-child(4) {
-       -webkit-transform: translate3d(260.0px, 0.0px, 0);
-       transform: translate3d(260.0px, 0.0px, 0);
+       -webkit-transform: translate3d(250.0px, 0.0px, 0);
+       transform: translate3d(250.0px, 0.0px, 0);
     }
 
     .menu-open:checked ~ .menu-item:nth-child(5) {
-       -webkit-transform: translate3d(5.0px, 260.0px, 0);
-       transform: translate3d(5.0px, 260.0px, 0);
+       -webkit-transform: translate3d(5.0px, 250.0px, 0);
+       transform: translate3d(5.0px, 250.0px, 0);
     }
 
     .menu-open:checked ~ .menu-item:nth-child(6) {
-       -webkit-transform: translate3d(-240.0px, 0.0px, 0);
-       transform: translate3d(-240.0px, 0.0px, 0);
+       -webkit-transform: translate3d(-230.0px, 0.0px, 0);
+       transform: translate3d(-230.0px, 0.0px, 0);
     }
 
     .menu-open:checked ~ .menu-item:nth-child(10) {
