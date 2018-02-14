@@ -358,7 +358,7 @@ a.title:hover { color: #b39471; }
 /*--------------------------
     5.2 Navigations Regular
    ----------------------------*/
-.hero-section { height: 55vh; background: linear-gradient(rgba(178, 178, 178, 0.4), rgba(178, 178, 178, 0.4)), url(../images/tooth.gif) no-repeat center; background-size: cover; position: relative; }
+.hero-section { height: 55vh; background: linear-gradient(rgba(178, 178, 178, 0.4), rgba(178, 178, 178, 0.4)), url(../images/compass.jpg) no-repeat center; background-size: cover; position: relative; }
 .hero-caption { padding-top: 100px; padding-bottom: 100px;}
 .hero-title { font-family: 'dark_roast'; font-size: 80px; color: #3f0000; line-height: 58px; margin-bottom: 30px; letter-spacing: -1px; text-align: left; text-transform: none !important; position: absolute; left: 0; top: 40vh; }
 .navigation { float: right; }
