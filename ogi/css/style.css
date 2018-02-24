@@ -11,7 +11,8 @@ body {
 }
 
 div.moto h1 {
-    font-size: 3em;
+    font-size: 2.4em;
+    font-weight: 400;
     text-align: center;
     color: #565759;
     width: 1800px;
@@ -20,20 +21,21 @@ div.moto h1 {
 }
 
 div.moto h5 {
-    font-size: 1.7em;
+    font-size: 1.2em;
+    font-weight: 400;
     text-align: right;
     color: #f2600f;
     width: 200px;
-   -webkit-transform: translate3d(570.0px, -470.0px, 0);
-   transform: translate3d(570.0px, -470.0px, 0);
+   -webkit-transform: translate3d(510.0px, -465.0px, 0);
+   transform: translate3d(510.0px, -465.0px, 0);
 }
 
 div.enter {
-    font-size: 100%;
+    font-size: 70%;
     text-align: center;
     color: #f2600f;
-    -webkit-transform: translate3d(40.0px, -5.0px, 0);
-    transform: translate3d(40.0px, -5.0px, 0);
+    -webkit-transform: translate3d(44.0px, -10.0px, 0);
+    transform: translate3d(44.0px, -10.0px, 0);
     display: inline-block;
 }
 
@@ -427,15 +429,22 @@ div.enter p {
 
 @media screen and (max-width: 1680px) {
     div.moto h1 {
+        font-size: 2em;
         width: 1600px;
        -webkit-transform: translate3d(-760.0px, -420.0px, 0);
        transform: translate3d(-760.0px, -420.0px, 0);
     }
     
+    div.moto h5 {
+        font-size: 1em;
+       -webkit-transform: translate3d(395.0px, -450.0px, 0);
+       transform: translate3d(395.0px, -450.0px, 0);
+    }
+    
     div.enter {
-        font-size: 70%;
-        -webkit-transform: translate3d(46.0px, -8.0px, 0);
-        transform: translate3d(46.0px, -8.0px, 0);
+        font-size: 60%;
+        -webkit-transform: translate3d(47.0px, -12.0px, 0);
+        transform: translate3d(47.0px, -12.0px, 0);
     }
 
     .menu-item {
@@ -512,22 +521,22 @@ div.enter p {
 
 @media screen and (max-width: 1600px) {
     div.moto h1 {
-        font-size: 2.5em;
+        font-size: 2em;
         width: 1590px;
        -webkit-transform: translate3d(-755.0px, -345.0px, 0);
        transform: translate3d(-755.0px, -345.0px, 0);
     }
 
     div.moto h5 {
-        font-size: 1.2em;
-       -webkit-transform: translate3d(445.0px, -380.0px, 0);
-       transform: translate3d(445.0px, -380.0px, 0);
+        font-size: 1em;
+       -webkit-transform: translate3d(395.0px, -380.0px, 0);
+       transform: translate3d(395.0px, -380.0px, 0);
     }
     
     div.enter {
-        font-size: 70%;
-        -webkit-transform: translate3d(46.0px, -8.0px, 0);
-        transform: translate3d(46.0px, -8.0px, 0);
+        font-size: 60%;
+        -webkit-transform: translate3d(47.0px, -12.0px, 0);
+        transform: translate3d(47.0px, -12.0px, 0);
     }
     
     .menu-open-button {
@@ -613,14 +622,22 @@ div.enter p {
 
 @media screen and (max-width: 1440px) {
     div.moto h1 {
+        font-size: 1.8em;
         width: 1430px;
-       -webkit-transform: translate3d(-675.0px, -345.0px, 0);
-       transform: translate3d(-675.0px, -345.0px, 0);
+        -webkit-transform: translate3d(-675.0px, -345.0px, 0);
+        transform: translate3d(-675.0px, -345.0px, 0);
     }
 
     div.moto h5 {
-       -webkit-transform: translate3d(445.0px, -380.0px, 0);
-       transform: translate3d(445.0px, -380.0px, 0);
+        font-size: 1em;
+        -webkit-transform: translate3d(340.0px, -380.0px, 0);
+        transform: translate3d(340.0px, -380.0px, 0);
+    }
+    
+    div.enter {
+        font-size: 55%;
+        -webkit-transform: translate3d(46.0px, -12.0px, 0);
+        transform: translate3d(48.0px, -12.0px, 0);
     }
     
     .menu-open-button {
@@ -706,7 +723,7 @@ div.enter p {
 
 @media screen and (max-width: 1366px) {
     div.moto h1 {
-        font-size: 2em;
+        font-size: 1.7em;
         width: 1345px;
        -webkit-transform: translate3d(-635.0px, -280.0px, 0);
        transform: translate3d(-635.0px, -280.0px, 0);
@@ -714,18 +731,24 @@ div.enter p {
 
     div.moto h5 {
         font-size: 1em;
-       -webkit-transform: translate3d(320.0px, -310.0px, 0);
-       transform: translate3d(320.0px, -310.0px, 0);
+       -webkit-transform: translate3d(310.0px, -310.0px, 0);
+       transform: translate3d(310.0px, -310.0px, 0);
+    }
+    
+    div.enter {
+        font-size: 55%;
+        -webkit-transform: translate3d(46.0px, -12.0px, 0);
+        transform: translate3d(48.0px, -12.0px, 0);
     }
     
     .menu-open-button {
-       -webkit-transform: scale(3.7, 3.7) translate3d(0, 0, 0);
-       transform: scale(3.7, 3.7) translate3d(0, 0, 0);
+       -webkit-transform: scale(3.4, 3.4) translate3d(0, 0, 0);
+       transform: scale(3.4, 3.4) translate3d(0, 0, 0);
     }
     
     .menu-open-button:hover {
-       -webkit-transform: scale(3.5, 3.5) translate3d(0, 0, 0);
-       transform: scale(3.5, 3.5) translate3d(0, 0, 0);
+       -webkit-transform: scale(3.2, 3.2) translate3d(0, 0, 0);
+       transform: scale(3.2, 3.2) translate3d(0, 0, 0);
     }
     
     .menu-open:checked + .menu-open-button {
@@ -787,15 +810,21 @@ div.enter p {
 @media screen and (max-width: 1024px) and (max-height: 800px){
     div.moto h1 {
         width: 900px;
-        font-size: 1.8em;
+        font-size: 1.6em;
        -webkit-transform: translate3d(-410.0px, -290.0px, 0);
        transform: translate3d(-410.0px, -290.0px, 0);
     }
 
     div.moto h5 {
-        font-size: 1em;
-       -webkit-transform: translate3d(275.0px, -320.0px, 0);
-       transform: translate3d(275.0px, -320.0px, 0);
+        font-size: 0.9em;
+       -webkit-transform: translate3d(285.0px, -320.0px, 0);
+       transform: translate3d(285.0px, -320.0px, 0);
+    }
+    
+    div.enter {
+        font-size: 55%;
+        -webkit-transform: translate3d(46.0px, -12.0px, 0);
+        transform: translate3d(48.0px, -12.0px, 0);
     }
     
     .menu-open-button {
@@ -882,13 +911,13 @@ div.enter p {
 @media screen and (max-width: 1024px) and (max-height: 600px){
     div.moto h1 {
         width: 900px;
-        font-size: 1.8em;
+        font-size: 1.6em;
        -webkit-transform: translate3d(-410.0px, -200.0px, 0);
        transform: translate3d(-410.0px, -200.0px, 0);
     }
 
     div.moto h5 {
-        font-size: 1em;
+        font-size: 0.9em;
        -webkit-transform: translate3d(275.0px, -230.0px, 0);
        transform: translate3d(275.0px, -230.0px, 0);
     }
@@ -984,8 +1013,8 @@ div.enter p {
 
     div.moto h5 {
         font-size: 0.8em;
-       -webkit-transform: translate3d(205.0px, -400.0px, 0);
-       transform: translate3d(205.0px, -400.0px, 0);
+       -webkit-transform: translate3d(195.0px, -400.0px, 0);
+       transform: translate3d(195.0px, -400.0px, 0);
     }
     
     .menu-open-button {
@@ -1068,8 +1097,8 @@ div.enter p {
     }
 
     div.moto h5 {
-       -webkit-transform: translate3d(18.0px, -400.0px, 0);
-       transform: translate3d(180.0px, -400.0px, 0);
+       -webkit-transform: translate3d(195.0px, -400.0px, 0);
+       transform: translate3d(195.0px, -400.0px, 0);
     }
     
     .menu-open:checked ~ .menu-item:nth-child(7) {
@@ -1089,7 +1118,7 @@ div.enter p {
 
 @media screen and (max-width: 600px) {
     div.moto h1 {
-        font-size: 1.1em;
+        font-size: 1.3em;
         width: 590px;
        -webkit-transform: translate3d(-255.0px, -380.0px, 0);
        transform: translate3d(-255.0px, -380.0px, 0);
@@ -1374,7 +1403,6 @@ div.enter p {
     }
 
     div.moto h5 {
-        font-size: 0.5em;
        -webkit-transform: translate3d(-15.0px, -225.0px, 0);
        transform: translate3d(-15.0px, -225.0px, 0);
     }
