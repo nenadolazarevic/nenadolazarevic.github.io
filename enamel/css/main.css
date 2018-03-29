@@ -451,6 +451,15 @@ footer .copyright a{
 
 /*		Responsive CSS 		*/
 
+@media (max-width: 800px) {
+
+	/*		Contact section 		*/
+    .about .features_list{
+        margin-left: 100px;
+    }
+
+}
+
 @media (max-width: 767px) {
 
 
@@ -535,11 +544,6 @@ footer .copyright a{
     .featured_on ul li img{
 		width: 70%;
 	}
-
-	/*		Contact section 		*/
-    .about .features_list{
-        margin-left: 100px;
-    }
 
 }
 
