@@ -480,10 +480,13 @@ div.post-btn-1 { position: absolute; width: 144px; bottom: 10px; left: 0; right:
      .widget-main {padding-left: 20px; padding-right: 20px;}   
     }
 
+    @media only screen and (max-width : 600px) {
+      .hero-title { left: 10px; }
+    }
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
      .navigation { float: none; }
-     .hero-title { font-size: 40px; width: 70%; top: 125px;}
+     .hero-title { font-size: 40px; width: 70%; left: 0; top: 125px;}
      .hero-section {height: 55vh; position: relative; }
      .correspondent h1 { font-size: 18px; letter-spacing: 12px; word-spacing: 10px; }
      .footer-widget {margin-bottom: 20px;}
@@ -498,10 +501,14 @@ div.post-btn-1 { position: absolute; width: 144px; bottom: 10px; left: 0; right:
      .join form p input.upload { width: 250px; }
     }
 
+    @media only screen and (max-width : 384px) {
+      .hero-title { font-size: 36px; width: 80%; left: -10px; top: 110px;}
+    }
+
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : 320px) {
      .navigation { float: none; }
-     .hero-title { font-size: 40px; line-height: 40px; width: 90%; height: 100px; top: 200px;}
+     .hero-title { color: #fbfbfb; font-size: 40px; line-height: 40px; width: 90%; height: 100px; left: 5px; top: 200px;}
      .hero-section {height: 55vh; position: relative; }
      .correspondent h1 { letter-spacing: 10px;}
      .footer-widget {margin-bottom: 20px;}
